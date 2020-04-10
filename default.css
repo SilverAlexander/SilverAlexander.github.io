@@ -164,12 +164,12 @@
 		display: inline-block;
 		padding: 1em 2em 1em 2em;
 		letter-spacing: 0.10em;
-		margin-top: 2em;
+		margin-top: 3em;
 		padding: 1.40em 3em;
-		border: 2px solid rgba(255,255,255,1);
+		border: 1px solid rgba(255,255,255,1);
 		border-radius: 6px;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 1em;
 		color: #FFF;
 	}
@@ -431,6 +431,12 @@
 
 	#footer
 	{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: rgba(255,255,255,0.3);
+		text-align: center;
 	}
 
 /*********************************************************************************/
